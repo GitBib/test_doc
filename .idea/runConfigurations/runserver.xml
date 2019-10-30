@@ -1,0 +1,43 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="runserver" type="Python.DjangoServer" factoryName="Django server" singleton="true">
+    <module name="studionext" />
+    <option name="INTERPRETER_OPTIONS" value="" />
+    <option name="PARENT_ENVS" value="true" />
+    <envs>
+      <env name="PYTHONUNBUFFERED" value="1" />
+      <env name="DJANGO_SETTINGS_MODULE" value="config.settings.local" />
+      <env name="DEBUG" value="on" />
+      <env name="DJANGO_SECRET_KEY" value="5Z2advMeV1VvMpyGQIyAxcDEwAy3krYeNl7kB4lStUvssbDBcNK2Sbo4TMcdmMFE" />
+      <env name="CELERY_FLOWER_USER" value="debug" />
+      <env name="CELERY_FLOWER_PASSWORD" value="debug" />
+      <env name="REDIS_URL" value="redis://localhost:6379/0" />
+      <env name="CELERY_BROKER_URL" value="redis://localhost:6379/0" />
+      <env name="DATABASE_URL" value="postgres://bnff_user:pass@localhost:5432/test_db" />
+      <env name="USE_DOCKER" value="no" />
+    </envs>
+    <option name="SDK_HOME" value="$USER_HOME$/venv/studio_next/bin/python" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <option name="IS_MODULE_SDK" value="false" />
+    <option name="ADD_CONTENT_ROOTS" value="true" />
+    <option name="ADD_SOURCE_ROOTS" value="true" />
+    <EXTENSION ID="net.ashald.envfile">
+      <option name="IS_ENABLED" value="true" />
+      <option name="IS_SUBST" value="true" />
+      <option name="IS_PATH_MACRO_SUPPORTED" value="true" />
+      <option name="IS_IGNORE_MISSING_FILES" value="false" />
+      <ENTRIES>
+        <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+      </ENTRIES>
+    </EXTENSION>
+    <option name="launchJavascriptDebuger" value="false" />
+    <option name="port" value="8000" />
+    <option name="host" value="0.0.0.0" />
+    <option name="additionalOptions" value="" />
+    <option name="browserUrl" value="" />
+    <option name="runTestServer" value="false" />
+    <option name="runNoReload" value="false" />
+    <option name="useCustomRunCommand" value="false" />
+    <option name="customRunCommand" value="" />
+    <method v="2" />
+  </configuration>
+</component>
